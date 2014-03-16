@@ -67,7 +67,7 @@ I did not write this code. I just put it together in a plugin so more people can
 
 = Is My Site Attacking Others? =
 
-It could be! Use [Sucuri's WordPress DDOS Scanner][http://labs.sucuri.net/?is-my-wordpress-ddosing] to check if your site is DDOS’ing other websites
+It could be! Use [Sucuri's WordPress DDOS Scanner](http://labs.sucuri.net/?is-my-wordpress-ddosing) to check if your site is DDOS’ing other websites
 
 == Changelog ==
 
