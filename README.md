@@ -33,6 +33,7 @@ You can easily test your site to see if you are open to this vulnerability:
 2. As your request URL, enter `http://YOUR-SITE-URL.com/xmlrpc.php`
 3. Make sure you are doing a `POST`
 4. Set your request body to be `RAW` with the following content:
+
 ```<methodCall>
   <methodName>pingback.ping</methodName>
   <params>
@@ -40,6 +41,7 @@ You can easily test your site to see if you are open to this vulnerability:
     <param><value><string>http://YOUR-SITE-URL.com/hello-world/</string></value></param>
   </params>
 </methodCall>```
+
 5. Make sure the second param is a valid blog post that exists in your WordPress site
 6. Send the request!
 
