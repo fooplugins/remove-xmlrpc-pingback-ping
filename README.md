@@ -27,7 +27,7 @@ Yes, you can choose to do that using the plugin [Disable XML-RPC](http://wordpre
 How To Test Your Site?
 ----------------------
 
-You can easily test your site to see if you are open to this vulnerability:
+You can easily test your site to see if you are open to this vulnerability. Follow these steps and replace `http://YOUR-SITE-URL.com` with the URL of your site:
 
 1. Install the Chrome extension [PostMan](http://www.getpostman.com/)
 2. As your request URL, enter `http://YOUR-SITE-URL.com/xmlrpc.php`
@@ -44,7 +44,7 @@ You can easily test your site to see if you are open to this vulnerability:
     </methodCall>
     ```
 
-5. Make sure the second param is a valid blog post that exists in your WordPress site
+5. Make sure the second param is a valid blog post URL that exists in your WordPress site
 6. Send the request!
 
 If you get back a response saying the pingback from `http://YOUR-SITE-URL.com` to `http://YOUR-SITE-URL.com/hello-world/` was registered, then your site is wide open. Here is a screenshot of POSTMAN:
