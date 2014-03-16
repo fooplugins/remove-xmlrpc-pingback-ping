@@ -40,7 +40,7 @@ You can easily test your site to see if you are open to this vulnerability:
         <params>
             <param><value><string>http://YOUR-SITE-URL.com</string></value></param>
             <param><value><string>http://YOUR-SITE-URL.com/hello-world/</string></value></param>
-				</params>
+        </params>
     </methodCall>
     ```
 
