@@ -39,7 +39,8 @@ You can easily test your site to see if you are open to this vulnerability:
         <methodName>pingback.ping</methodName>
         <params>
             <param><value><string>http://YOUR-SITE-URL.com</string></value></param>
-            <param><value><string>http://YOUR-SITE-URL.com/hello-world/</string></value></param>               </params>
+            <param><value><string>http://YOUR-SITE-URL.com/hello-world/</string></value></param>
+				</params>
     </methodCall>
     ```
 
