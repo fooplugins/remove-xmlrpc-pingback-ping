@@ -7,6 +7,8 @@ From sucuri.net:
 
 > Any WordPress site with Pingback enabled (which is on by default) can be used in DDOS attacks against other sites.
 
+Read the FooPlugin's post [Beware : Your Site Is Part of a WordPress Pingback DDoS Botnet](http://fooplugins.com/prevent-wordpress-pingback-ddos/)
+
 Learn More
 ----------
 
